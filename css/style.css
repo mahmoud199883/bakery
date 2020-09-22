@@ -1,0 +1,553 @@
+*
+{
+    padding: 0PX;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 4000px;
+}
+.clr
+{
+    clear: both;
+}
+
+.nav
+{
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 22;
+    width: 100%;
+    color: #fff;
+}
+.nav ul{
+    list-style: none;
+    padding-right: 10px;
+}
+
+.nav ul li
+{
+    float: right;
+    padding: 20px 15px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+@media (max-width:815px)
+{
+    .nav ul li
+    {
+padding: 1px; 
+ 
+    }
+}
+.nav ul .logo
+{
+    float: left;
+    background-color:transparent;
+}
+.nav ul .logo img{
+    height: 60px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.nav ul li a:hover{
+    color:rgb(142, 119, 84)  ;
+}
+.home
+{
+    height: 720px;
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+    color: #fff;
+    overflow: auto;
+}
+
+.home .homecontent
+{
+     margin: auto;   
+     font-size: 20px;
+     margin-top: 250px;
+     text-align: center;
+
+}
+.home .homecontent p{
+    padding: 20px 0px;
+}
+.home .homecontent h1{
+    font-size: 40px;
+    font-family: 'Alegreya', serif;
+}
+.home .homecontent .btn
+{
+
+    padding: 15px 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+@media (max-width:811px)
+{
+    
+.home .homecontent .btn
+    {
+    padding:10px 10px ;
+    }
+}
+.home .homecontent .btn:hover
+{
+    background-color: white;
+
+}
+.home .homecontent .one
+{
+    background-color: rgb(142, 119, 84) ;
+    
+}
+.home .homecontent .two
+{
+    background-color: transparent;
+    border: 2px white solid;
+}
+
+
+/*
+
+
+about page
+
+
+*/
+
+
+
+
+
+
+
+
+.about
+{
+    margin-top: 80px;
+    color: rgba(0,0,0,0.6);
+    overflow: auto;
+
+}
+.about .about_img
+{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.about .about_img img{
+    width: 100%;
+}
+.about .about_info
+{
+    text-align: left;
+    padding-top: 20px;
+}
+@media (max-width:800px)
+{
+    .about .about_info,.about .about_img
+    {
+        width: 100%;
+    }
+
+}
+.about .about_info h2{
+     padding: 40px;
+     font-size: 30px;
+     color: rgba(0,0,0,0.8);
+}
+.about .about_info > p{
+    padding: 10px;
+    line-height: 30px;
+
+}
+.about .a_one
+{
+ height: 40px;
+ margin-top: 20px;
+ overflow: hidden; 
+}
+.about .a_two
+{
+    width: 5%;  
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.about .a_two img
+{
+  width: 100%;
+  height: 100%;
+}
+.about .a_three
+{
+    width: 85%;
+    padding-top: 10px;
+   
+}
+
+
+
+
+
+
+
+
+/* location page*/
+
+
+
+
+
+
+
+
+
+.location
+{
+    margin-top: 60px;
+    color: rgba(0,0,0,0.8);
+    background-color: rgb(231, 224, 224);
+}
+.location .loc_con
+{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+    overflow: auto;
+}
+.location .loc_info
+{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 60px  5px;
+   
+}
+
+.location .loc_img
+{
+    width: 50%;
+    float: left;
+}
+
+@media (max-width:800px)
+{
+    .location .loc_info,.location .loc_img
+    {
+        width: 100%;
+    }
+
+}
+.location .loc_info h3{
+    padding: 40px 0px;
+    font-size: 30px;
+
+}
+.location .loc_info p
+{
+line-height: 30px;
+color: rgba(0,0,0,0.6);
+}
+
+.location .loc_img img
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*backing page*/
+
+.baking
+
+{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(0,0,0,0.8);
+}
+.baking h3
+{
+    padding: 20PX 0PX;
+    font-size: 20px;
+}
+.baking p{
+    line-height: 30px;
+    color: rgba(0,0,0,0.6);
+}
+.baking .types 
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.baking .types .img_con
+{
+    padding: 20px 20px;
+    width:33% ;
+    text-align: center;
+    float: left;
+   
+
+}
+
+
+@media (max-width:950px)
+{
+    .baking .types .img_con
+    {
+        width: 100%;
+    }
+}
+
+
+.baking .types .type img{
+    width: 100%;
+}
+
+
+
+
+
+/*
+
+location page
+
+*/
+
+
+.contacts
+{
+    margin-top: 60px;
+    background-color:rgb(248, 248, 248);
+}
+.contacts .con_container
+{
+    width: 90%;
+    padding: 20px 10px;
+    overflow: auto;
+    margin: 20px auto;
+}
+.collectoin
+{
+    text-align: center; 
+    width: 50%;
+    padding: 10px;
+    float: left; 
+    text-align: left;    
+
+}
+@media(max-width:950px)
+{
+    .collectoin
+    {
+        width: 100%;
+    }
+
+}
+.collectoin ul li
+{
+    width: 20px;   
+}
+.collectoin ul li img{
+    width: 100%;
+}
+ .con_info h3{
+    padding: 50PX 0PX;
+    font-size: 20px;
+}
+.imgw
+{
+    padding: 10px 0px;
+}
+.imgw >div
+{
+    padding: 20px 0px;
+}
+.imgw img
+{
+  width: 40px;
+  border-radius: 20px;
+  background-color:rgb(142, 119, 84);
+}
+ .con_info p{
+    line-height: 30px;
+    color: rgba(0,0,0,0.6);
+}
+
+
+/*
+parts page
+
+*/
+
+
+
+.conn
+{
+    background-color: rgb(64, 61, 56);
+   
+}
+
+.parts
+{
+    padding: 20px 20px;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+  
+}
+.parts .part
+{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    color: rgb(150, 150, 150);
+}
+
+.parts .part p{
+    line-height: 31px;
+    padding: 5px ;
+    font-family: 'Alegreya Sans';
+}
+.parts .part .special p{
+    border-bottom: 1px solid ;
+    border-bottom-color: rgba(255, 255, 255, 0.0470588);
+    padding: 5px ;
+}
+.parts .part h4
+{
+    padding: 25px 0px;
+    font-family: Alegreya;
+    font-size: 18px;
+    color: white;
+}
+
+.parts .part .last
+{
+    opacity: 0.8;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.parts .part .last img
+{
+ width: 100%;
+ 
+}
+
+@media(min-width:701px) and (max-width:1000px)
+{
+    .parts .part
+    {
+        width: 50%;
+    }
+}
+@media (max-width:700px)
+
+{
+    .parts .part
+    {
+        width: 100%;
+    }
+}
+
+/*
+
+footer page
+*/
+
+
+
+.footers
+{
+    background-color: rgb(53, 51, 48) ;
+      color: rgb(121, 121, 121);
+      text-align: center;
+      padding: 50px 10px 40px ;
+      line-height: 31px;
+    
+}
+
+.social
+{
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+
+}
+.social img{
+   width: 10%;
+   height: 10%;
+    padding: 5px 5px;
+    background-color: rgb(121, 121, 121);
+    border-radius: 50%;
+}
+.social img:hover
+{
+background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
